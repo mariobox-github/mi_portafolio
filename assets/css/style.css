@@ -33,14 +33,13 @@ hr{
     background-color: gray;
 }
 
-
-
-/*mmmm*/
-
 .ancla:before {       
     display: block;       
     content: " ";       
-    margin-top: -80px;       
-    height: 80px;       
+    margin-top: -110px;       
+    height: 110px;       
     visibility: hidden; 
-  } 
+} 
+
+
+/*mmmm*/
