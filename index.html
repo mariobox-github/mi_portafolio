@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=|">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Mário Caro</title>
     <link rel="shortcut icon" type="image/png" href="assets\img\swatchbook-solid.png">
     <meta name="author" content="Mário Caro Guerrero">
@@ -25,13 +25,16 @@
 
     <!--Mi estilo CSS-->
     <link rel="stylesheet" href="assets\css\style.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+    <!--1a seccion barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-4">
         <div class="container px-4">
             <a class="navbar-brand" href="#">
-                <h1><span class="Oswald">MC</span></h1></a>
-    
+                <h1><span class="Oswald" style="color: #ff6600">MC</span></h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,10 +45,10 @@
                         <a class="nav-link" href="#ini">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Experiencia</a>
+                        <a class="nav-link" href="#lab">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#us">Trabajos</a>
+                        <a class="nav-link" href="#work">Trabajos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contacto</a>
@@ -55,17 +58,220 @@
         </div>
     </nav>
 
-    <header></header>
+    <!--2a seccion encabezado texto sobre foto (INTENTAR JUMBOTRON)-->
+    <header id="ini" class=" ancla text-center">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">YO SOY</h1>
+            <p class="lead">MARIO CARO</p>
+            <hr class="my-4">
+            <p>Diseño en función de  mejorar  
+                nuestra calidad de vida.</p>
+            <a class="btn btn-primary btn-lg bg-orange" href="#contact" role="button" data-toggle="tooltip"
+            data-placement="right" title="¿Tienes alguna consulta?">Conóceme más</a>
+          </div>
+    </header>
 
-    <section></section>
+    <!--3a seccion descripcion + 2 parrafos (debe desaparecer en tamaños pequeños de pantalla)-->
+    <section id="lab" class="ancla container px-4 mt-4">
+        <div class="row justify-content-center">
+            <article class="container-fluid">
+                <p>Diseñador Industrial de la Universidad Diego Portales, 
+                    con amplia experiencia en las áreas de Diseño,Construccióny Publicidad,
+                    participando en cada una de las etapas del proceso 
+                    creativo/constructivo: gestión, diseño, producción y 
+                    desarrollo de proyectos. Diseño y fabricación de Stands Feriales, 
+                    Arquitectura Efímera, Equipamiento de Oficinas y 
+                    Mobiliario Personalizado.</p>
+                <br><hr><br>
 
-    <section></section>
+            </article>
+            <article class="col-12 col-md-6 px-4">
+                <h4 class="Oswald"><b>Organizaciones</b></h4><br>
+                <ul>
+                    <li>MSW Design & Möbel</li>
+                    <li>Milla Tires Co Ltda.</li>
+                    <li>BILBAO Ltda.</li>
+                    <li>Easy S.A.</li>
+                    <li>TARQ Proyectos & Obras S.A.</li>
+                    <li>Industria Publicitaria Oriente S.A.</li>
+                    <li>Inside Diseño</li>
+                    <li>Universidad Diego Portales</li>
+                </ul>
+            </article>
+            <article class="col-12 col-md-6 px-4 mt-4 mt-md-0">
+                <h4 class="Oswald"><b>Funciones</b></h4><br>
+                <ul>
+                    <li>Director de Proyectos de Diseño</li>
+                    <li>Coordinación de equipos de diseño y constructivos.</li>
+                    <li>Reuniones, visitas técnicas y levantamientos.</li>
+                    <li>Diseño, modelado 3D, renders y prototipos.</li>
+                    <li>Diseño de soluciones constructivas.</li>
+                    <li>Supervisión de instalación en terreno.</li>
+                    <li>Up Selling, servicio al clientes</li>
+                    <li>Protocolos de atención y resolución de problema</li>
+                </ul>
+            </article>
+        </div>
+        <hr>
+    </section>
 
-    <section></section>
+    <!--4a seccion experiencia laboral-->    
+    <section id="" class="ancla container text-center">
+        <h2>Experiencia</h2>
+    </section>
 
-    <section></section>
+    <!--5a seccion ultimos trabajos-->
+    <section id="work" class=" ancla container-fluid bg-gray"><br>
 
-    <footer></footer>
+        <!--3 cards-->
+        <div>
+            <h2 class="text-center Oswald font-weight-bold mt-4 mb-5" style="color: white">Mis primeros desarrollos</h2>
+            <div class="container px-5">
+                <div class="row">
+        
+                    <!--Card1-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-4 border border-warning">
+                            <img src="assets\img\meet_coffee.png" class="card-img-top border border-warning" alt="img meetcoffe">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">Meet&Coffe</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!--Card2-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-4 border border-warning">
+                            <img src="assets\img\iguana_page.png" class="card-img-top border border-warning" alt="img iguanna">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">Iguana Page</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!--Card3-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-5 border border-warning">
+                            <img src="assets\img\suricata.png" class="card-img-top border border-warning" alt="img suricata">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">Suricata</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        
+        <!--3 cards-->
+        <div>
+            <div class="container px-5">
+                <div class="row">
+        
+                    <!--Card4-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-4 border border-warning">
+                            <img src="assets\img\cuppon.png" class="card-img-top border border-warning" alt="img cuppon">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">Cuppon</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!--Card5-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-4 border border-warning">
+                            <img src="assets\img\ricomida.png" class="card-img-top border border-warning" alt="img ricomida">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">Ricomida</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!--Card6-->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="card mb-5 border border-warning">
+                            <img src="assets\img\dmark.png" class="card-img-top border border-warning" alt="img dmark">
+                            <div class="card-body">
+                                <h5 class="card-title Oswald">DMark</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                                    lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--6a seccion formulario de contacto con Typeform?-->
+        <section id="contact" class="ancla container my-5">
+            <h2 class="diplay-3 font-weight-bold text-center my-4">Contácteme</h2>
+            <p class="text-center my-4">¿Quieres saber más de mi?</p>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Correo electrónico">
+                    <small id="emailHelp" class="form-text text-muted"></small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-info">Submit</button>
+                </div>
+            </form>
+        </section>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-4">
+            <a class="navbar-brand" href="#">
+                <h1><span class="Oswald">Mario Caro</span></h1>
+            </a>
+    
+            <div class="bg-dark" id="navbarNav">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item bg-dark">
+                        <a href="https://github.com/mariobox-github" target="_blank" style="color: #ff6600;"
+                            title="Mi GitHub"><i class="fab fa-github-square fa-3x"></i></a>
+                    </li>
+    
+                    <li class="list-group-item bg-dark">
+                        <a href="https://www.linkedin.com/in/mario-caro-bb240685/" target="_blank" style="color: #ff6600;"
+                            title="Mi Linkedin"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </li>
+    
+                    <li class="list-group-item bg-dark">
+                        <a href="https://twitter.com/" target="_blank" style="color: #ff6600;" title="Mi Twitter"><i
+                                class="fab fa-twitter-square fa-3x"></i></a>
+                    </li>
+    
+                    <li class="list-group-item bg-dark">
+                        <a href="https://es-la.facebook.com/mswdesignymobel/" target="_blank" style="color: #ff6600;"
+                            title="Mi Facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 
     <!--jQuery 3.5.1-->

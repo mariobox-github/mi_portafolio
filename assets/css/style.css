@@ -1,0 +1,46 @@
+:root {
+   
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+hr{
+    height: 0.25px;
+    background-color: #373A3C;
+}
+
+.list-group-item{
+    padding: 0px;
+    margin: 3px;
+}
+
+.bg-orange{
+    background-color: #ff6600;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+
+
+/*mmmm*/
+
+.ancla:before {       
+    display: block;       
+    content: " ";       
+    margin-top: -80px;       
+    height: 80px;       
+    visibility: hidden; 
+  } 
