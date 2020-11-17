@@ -28,6 +28,7 @@ hr{
     background-color: gray;
 }
 
+/*para no ocultar secciones con el navbar*/
 .ancla:before {       
     display: block;       
     content: " ";       
@@ -36,14 +37,15 @@ hr{
     visibility: hidden; 
 } 
 
-/*probando poner imagen a jumbotron*/
 
+/*imagen de fondo en hero-section*/
 .hero-section{
     text-align: center;
     background-image: url("../img/bg-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 4px black;
     padding-top: 8rem;
     padding-bottom: 2rem;
 }
@@ -51,5 +53,9 @@ hr{
 .line{
     background-color: white;
     width: 23.125rem;
-    
+    shadow: 2px 2px 4px #000000;
+}
+
+@media only screen and (max-width: 768px) { 
+    #job { display: none; } 
 }
