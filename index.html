@@ -6,30 +6,24 @@
     <title>Portafolio Mário Caro</title>
     <link rel="shortcut icon" type="image/png" href="assets\img\swatchbook-solid.png">
     <meta name="author" content="Mário Caro Guerrero">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-
+    <meta name="description" content="Prueba Portafolio Mario Caro">
+    <meta name="keywords" content="portafolio, mario, caro, organizaciones,funciones">
     <!--CSS de Bootstrap 4.5.3-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
     <!--Gogle Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Oswald:wght@200;400;600;700&display=swap"
         rel="stylesheet">
-
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-
     <!--Mi estilo CSS-->
     <link rel="stylesheet" href="assets\css\style.css">
-
 </head>
 
 <body>
-
     <!--1a seccion barra de navegacion-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-4">
         <div class="container px-4">
@@ -58,20 +52,31 @@
         </div>
     </nav>
 
+    <header id="ini" class="container-fluid hero-section">
+        <h1 class="display-4 font-weight-light Oswald">YO SOY</h1>
+        <hr class="line">
+        <h2 class="display-3 Oswald font-weight-bold">MARIO CARO</h2> 
+        <h3>Estudiando UX/UI</h3>
+        <p>Diseño en función de  mejorar  
+            nuestra calidad de vida.</p>
+        <a class="btn btn btn btn-outline-warning btn-lg" href="#contact" role="button" data-toggle="tooltip"
+        data-placement="right" title="¿Tienes alguna consulta?">Conóceme más</a>
+    </header>
+
     <!--2a seccion encabezado texto sobre foto (INTENTAR JUMBOTRON)-->
-    <header id="ini" class=" ancla text-center">
+    <!--<header id="ini" class="ancla text-center">
         <div class="jumbotron jumbotron-fluid">
             <h1 class="display-4">YO SOY</h1>
             <p class="lead">MARIO CARO</p>
             <hr class="my-4">
             <p>Diseño en función de  mejorar  
                 nuestra calidad de vida.</p>
-            <a class="btn btn-primary btn-lg bg-orange" href="#contact" role="button" data-toggle="tooltip"
+            <a class="btn btn btn btn-outline-warning btn-lg" href="#contact" role="button" data-toggle="tooltip"
             data-placement="right" title="¿Tienes alguna consulta?">Conóceme más</a>
           </div>
-    </header>
+    </header>-->
 
-    <!--3a seccion descripcion + 2 parrafos (debe desaparecer en tamaños pequeños de pantalla)-->
+    <!--3a seccion descripcion +  4a seccion en 2 parrafos (debe desaparecer en tamaños pequeños de pantalla)-->
     <section id="exp" class="ancla container px-4 mt-4 mb-4 pb-4">
         <div class="row justify-content-center">
             <article class="container-fluid">
@@ -211,37 +216,36 @@
         </div>
     </section>
 
-        <!--6a seccion formulario de contacto con Typeform?-->
-        <section id="contact" class="ancla container my-5">
-            <h2 class="diplay-3 font-weight-bold text-center my-4">Contácteme</h2>
-            <p class="text-center my-4">¿Quieres saber más de mi?</p>
-            <form>
-                <div class="form-group">
-                    <label for="formGroupExampleInput">Nombre</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Correo electrónico</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Correo electrónico">
-                    <small id="emailHelp" class="form-text text-muted"></small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Escribe aquí tu mensaje"></textarea>
-                </div>
-                <div class="text-right">
-                    <button type="submit" class="btn btn-info">Submit</button>
-                </div>
-            </form>
-        </section>
+    <!--6a seccion formulario de contacto con Typeform?-->
+    <section id="contact" class="ancla container my-5">
+        <h2 class="diplay-3 font-weight-bold text-center Oswald my-4">Contáctame</h2>
+        <p class="text-center my-4">¿Quieres saber más de mi?</p>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Tu correo electrónico">
+                <small id="emailHelp" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <div class="text-right">
+                <button type="submit" class="btn btn btn-outline-warning">Enviar</button>
+            </div>
+        </form>
+    </section>
 
     <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container px-4">
             <a class="navbar-brand" href="#">
-                <h1><span class="Oswald">Mario Caro</span></h1>
-            </a>
+                <h1><span class="Oswald">Mario Caro</span></h1></a>
     
             <div class="bg-dark" id="navbarNav">
                 <ul class="list-group list-group-horizontal">
@@ -249,17 +253,14 @@
                         <a href="https://github.com/mariobox-github" target="_blank" style="color: #ff6600;"
                             title="Mi GitHub"><i class="fab fa-github-square fa-3x"></i></a>
                     </li>
-    
                     <li class="list-group-item bg-dark">
                         <a href="https://www.linkedin.com/in/mario-caro-bb240685/" target="_blank" style="color: #ff6600;"
                             title="Mi Linkedin"><i class="fab fa-linkedin fa-3x"></i></a>
                     </li>
-    
                     <li class="list-group-item bg-dark">
                         <a href="https://twitter.com/" target="_blank" style="color: #ff6600;" title="Mi Twitter"><i
                                 class="fab fa-twitter-square fa-3x"></i></a>
                     </li>
-    
                     <li class="list-group-item bg-dark">
                         <a href="https://es-la.facebook.com/mswdesignymobel/" target="_blank" style="color: #ff6600;"
                             title="Mi Facebook"><i class="fab fa-facebook-square fa-3x"></i></a>
@@ -271,14 +272,17 @@
 
 
     <!--jQuery 3.5.1-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
     <!--Popper JS 1.16.1-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
     <!--Bootstrap JS 4.5.3-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
     <!--Mi JS-->
     <script src="assets/js/script.js"></script>
 </body>
